@@ -1,3 +1,4 @@
+
 body{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     background-color: rgb(249, 248, 248);
@@ -11,7 +12,7 @@ button{
     padding: 5px 12px 5px 12px;
     border: none;
     color: white;
-    border-radius: 2px;
+    border-radius: 5px;
     min-height: 50px;
 }
 
@@ -58,7 +59,7 @@ header{
     transition: 0.3s;
 }
 #navbar a:hover{
-    color:rgb(193, 9, 24);
+    color:rgb(23, 200, 141);
     
 }
 
@@ -75,6 +76,32 @@ header{
     align-items: center;
     justify-content: center;
 
+}
+
+#landpage1{
+    margin:5px 4% 5px 4%;
+}
+
+footer{
+    background-color: white;
+    margin:0px 0px 0px 0px;
+    padding: 3%;
+}
+
+#footer1{
+    display:flex;
+    justify-content: space-between;
+
+}
+#footer1 ul{
+    list-style: none;
+    
+
+}
+
+#lastitem{
+    display: flex;
+    justify-content: space-between;
 }
 
 
