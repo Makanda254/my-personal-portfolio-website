@@ -1,12 +1,32 @@
 body{
-    
+    font-family:Verdana, Geneva, Tahoma, sans-serif
 }
 a{
     text-decoration: none;
 }
 
+button{
+    background-color: green;
+    padding: 5px 12px 5px 12px;
+    border: none;
+    color: white;
+    border-radius: 2px;
+}
+
+button:hover{
+    background-color: rgb(11, 120, 120);
+    cursor: pointer;
+    transition: 0.7s ease;
+
+}
+
+header{
+    /*background-color: white;*/
+    /*position: sticky;*/
+}
+
 #navbar{
-    
+
     margin: 5px 4% 5px 4%;
     display: flex;
     align-items: center;
@@ -22,13 +42,31 @@ a{
     color:black;
     margin-right: 10px;
     font-size: 22px;
+    transition: 0.7s ease;
+    position: relative;
 }
-
+#navbar a::after{
+    content:"";
+    position: absolute;
+    background-color: rgb(88, 8, 8);
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+}
 #navbar a:hover{
     color:rgb(127, 227, 194);
+    
 }
 
+#navbar a:hover::after{
+    width: 100%;
+}
 .brandname{
     display: flex;
     align-items: center;
 }
+
+
+
