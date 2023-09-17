@@ -76,7 +76,10 @@ header{
 #landpage{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content:center;
+    margin: 5px 4% 5px 4%;
+    
+
 
 }
 
@@ -84,7 +87,8 @@ header{
     margin:5px 4% 5px 4%;
 }
 
-#landpage p{
+#landpage1 p{
+    line-height: 50px;
 
 
 }
@@ -101,11 +105,8 @@ footer{
     justify-content: space-between;
 
 }
-#footer1 ul{
-    list-style: none;
-    
 
-}
+
 
 #lastitem{
     display: flex;
