@@ -79,6 +79,7 @@ header{
     align-items: center;
     justify-content:center;
     margin: 5px 4% 5px 4%;
+    padding: 5%;
 }
 
 #landpage1{
@@ -86,10 +87,36 @@ header{
 }
 
 #landpage1 p{
-    line-height: 50px;
+    line-height: 45px;
+    font-weight: 900;
+}
 
+.section{
+    display: flex;
+    justify-content: space-between;
+    margin:5px 4% 5px 4%;
+    padding: 6%;     
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+}
+
+#services{
+    text-align: center;
+    margin: 5px 4% 5px 4%;
+    padding: 3%;
 
 }
+.container1{
+    margin:5px 4% 5px 4%;
+    padding: 3%;
+}
+
+
 
 footer{
     background-color: white;
@@ -127,6 +154,12 @@ footer{
     margin: 5px 4% 5px 4%;
     padding: 6%;
 }
+#landpage3{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    margin: 5px 4% 5px 4%;
+}
 
 #Contact{
     display: flex;
@@ -148,5 +181,27 @@ footer{
     color:rgb(227, 21, 21);
 }
 
+#Skills-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 4% 5px 4%;
+    padding: 7%;
+    width: 50vw;
+}
+
+#background{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 4% 5px 4%;
+    padding: 5%;
+}
+
+#Skills-container ul{
+    list-style: none;
+}
+
+#background ul{
+    list-style: none;
+}
 
 
