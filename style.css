@@ -37,6 +37,7 @@ header{
     align-items: center;
     justify-content: space-between;
     font-family:Arial, Helvetica, sans-serif;
+    
 }
 
 #navbar img{
@@ -78,9 +79,6 @@ header{
     align-items: center;
     justify-content:center;
     margin: 5px 4% 5px 4%;
-    
-
-
 }
 
 #landpage1{
@@ -122,6 +120,33 @@ footer{
     color:rgb(162, 45, 3);
 }
 
+#about{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 5px 4% 5px 4%;
+    padding: 6%;
+}
+
+#Contact{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 4% 5px 4%;
+    padding: 6%;
+    width: 40vw;
+}
+#Contact ul{
+    list-style: none;
+}
+
+#Contact a{
+    color:blue;
+    transition: 0.7s ease;
+}
+
+#Contact a:hover{
+    color:rgb(227, 21, 21);
+}
 
 
 
