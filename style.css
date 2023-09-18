@@ -47,7 +47,7 @@ header{
 #navbar a{
     color:black;
     margin-right: 10px;
-    font-size: 22px;
+    font-size: large;
     transition: 0.7s ease;
     position: relative;
 }
@@ -103,6 +103,14 @@ header{
     flex-direction: column;
     align-items: center;
     justify-content:center;
+}
+
+.container .card{
+    font-size: smaller;
+    border: 1px solid rgb(225, 218, 218);
+    border-top: 5px;
+    border-left: 5px;
+    border-right: 5px;
 }
 
 #services{
@@ -204,8 +212,26 @@ footer{
     list-style: none;
 }
 
-@media (max-width: 500px) {
-    body{
+/*toggle-button{
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+.toggle-button .bar{
+    height: 3px;
+    width: 100%;
+    background-color:brown;
+    border-radius: 10px;
+}*/
+
+@media (max-width: 600px) {
+    *{
         width: 100%;
     }
 }
